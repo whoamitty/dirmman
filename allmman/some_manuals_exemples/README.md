@@ -1,1 +1,1 @@
-#All my personal mman
+# Some exemples of mman manuals
