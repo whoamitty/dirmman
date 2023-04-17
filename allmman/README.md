@@ -1,1 +1,1 @@
-# Some exemples of mman manual
+# Here are placed your mman manuals
