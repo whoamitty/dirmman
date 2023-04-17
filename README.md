@@ -10,7 +10,7 @@ but also to print them.
 
 I will make a more detailed description soon.
 
-```
+
 For have command mman
 run this command
 put dirmman for exemple in `~/git_source/`
