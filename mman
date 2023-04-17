@@ -1,0 +1,20 @@
+#/bin/bash
+
+
+case $1 in
+	
+	-m) cat $HOME/bin/dirmman/allmman/$2;;
+	-mm) vi $HOME/bin/dirmman/allmman/$2;;
+	-x) cat $HOME/bin/$2;;
+	-xx) vi $HOME/bin/$2;;
+	-l) ls --color=yes $HOME/bin/dirmman/allmman/$2;;  #affiche la liste des fichiers presents dans le dossier parent	
+	-lm) ls --color=yes $HOME/bin/dirmman/allmman/$2;;
+	-lx) ls --color=yes $HOME/bin/$2;;  #affiche la liste des fichiers/programmes presents dans le dossier ~/bin
+	-p) echo $HOME/bin/dirmman/allmman/$2;;       #pour afficher le chemin du dossier parent
+	-pm) echo $HOME/bin/dirmman/allmman/$2;;
+	-px) echo $HOME/bin/$2;;
+	*) cat ~/bin/dirmman/allmman/$1;;	
+	
+esac
+
+
