@@ -1,4 +1,10 @@
-#What is mman ?
+# What is mman ?
+
+For have command mman
+run this command
+put dirmman for exemple in ~/git_source/
+and make a like in /usr/bin/ to mman 
+sudo ln -s  ~/git_source/dirmman/mman  /usr/bin/mman
 
 mman allows you to quickly access
 quickly to your scripts in bin,
