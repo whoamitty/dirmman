@@ -5,8 +5,7 @@
 mman allows you to quickly access
 from anywhere to your scripts in ~/bin,
 display their content,
-or make personal manuals with vim,
-but also to print them.
+or make personal manuals about them with vim .
 
 I will make a more detailed description soon.
 
