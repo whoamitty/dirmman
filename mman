@@ -1,19 +1,22 @@
 #/bin/bash
 
 
+directory_of_mman=$HOME/bin/dirmman
+directory_of_personal_scripts=$HOME/bin
+
 case $1 in
 	
-	-m) cat $HOME/bin/dirmman/allmman/$2;;
-	-mm) vi $HOME/bin/dirmman/allmman/$2;;
-	-x) cat $HOME/bin/$2;;
-	-xx) vi $HOME/bin/$2;;
-	-l) ls --color=yes $HOME/bin/dirmman/allmman/$2;;  #affiche la liste des fichiers presents dans le dossier parent	
-	-lm) ls --color=yes $HOME/bin/dirmman/allmman/$2;;
-	-lx) ls --color=yes $HOME/bin/$2;;  #affiche la liste des fichiers/programmes presents dans le dossier ~/bin
-	-p) echo $HOME/bin/dirmman/allmman/$2;;       #pour afficher le chemin du dossier parent
-	-pm) echo $HOME/bin/dirmman/allmman/$2;;
-	-px) echo $HOME/bin/$2;;
-	*) cat ~/bin/dirmman/allmman/$1;;	
+	-m) cat $directory_of_mman/allmman/$2;;
+	-mm) vi $directory_of_mman/allmman/$2;;
+	-x) cat $directory_of_personal_scripts/$2;;
+	-xx) vi $directory_of_personal_scripts/$2;;
+	-l) ls --color=yes $directory_of_mman/allmman/$2;;  #display the list of personal manual  	
+	-lm) ls --color=yes $directory_of_mman/allmman/$2;;
+	-lx) ls --color=yes $directory_of_personal_scripts/$2;;  #display the list of personal scripts
+	-p) echo $directory_of_mman/allmman/$2;;       #show mman's folder path
+	-pm) echo $directory_of_mman/allmman/$2;;
+	-px) echo $directory_of_personal_scripts/$2;;
+	*) cat $directory_of_mman/allmman/$1;;	
 	
 esac
 
