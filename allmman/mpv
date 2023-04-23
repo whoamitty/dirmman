@@ -1,1 +1,0 @@
-find VIOLET_EVERGARDEN*/* | grep -v ".xspf" | shuf > $HOME/bin/mmpv/random ;cat $HOME/bin/mmpv/random | while read a ; do echo -e "\n$a" ;mpv "$a" ; done
