@@ -11,7 +11,5 @@ I will make a more detailed description soon.
 
 
 For have command mman
-run this command
-put dirmman for exemple in `~/git_source/`
-and make a link in `/usr/bin/` to `mman` 
-`sudo ln -s  ~/git_source/dirmman/mman  /usr/bin/mman`
+put this command in your ~/.bashrc
+`source path/to/dirmman/mman.sh`
