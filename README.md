@@ -11,5 +11,5 @@ I will make a more detailed description soon.
 
 
 For have command mman
-put this command in your ~/.bashrc
+put this command in your ~/.bashrc :
 `source path/to/dirmman/mman.sh`
